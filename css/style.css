@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'druk';
+	src: url('font/druk.otf');
+}
+
+body {
+	padding:0;
+	margin:0;
+	color:#272955;
+	background:#c4c6cb;
+	font-family:'Druk',sans-serif;
+}
+
+.intro {
+	margin:5vw 0 0;
+	padding:0;
+	text-align:center;
+	width:100%;
+	height:10vw;
+	line-height:1;
+	font-size:14px;
+	background-image:url('images/heart.png');
+	background-size:10% auto;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.intro p {
+	padding-top:3.8vw;
+}
+
+.content {
+	margin:4vw 0 0;
+	width: 100%;
+	text-align:center;
+	/*background-image:url('images/cardib.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:200px;*/
+	}
+
+.content textarea {
+	font-family:'Druk',sans-serif;
+	font-size:5vw;
+	line-height:1.1;
+	text-align:center;
+	color:#272955;
+	background:transparent;
+	width:58%;
+	height:25vw;
+	border:0;
+	resize: none;
+	padding:0;
+	overflow:hidden;
+}
+
+.buttons {
+	position:fixed;
+	bottom:0;
+	padding:0 0 4vw;
+	width:100%;
+}
+
+button {
+	background:#B4FF86;
+	border:0;
+	font-size:30px;
+	font-family:'Druk',sans-serif;
+	padding:2px 15px;
+	color:#272955;
+	transition:ease .1s;
+	margin-left:1vw;
+}
+
+button:hover {
+	background-color:white;
+}
+
+button:active {
+	background-color:#272955;
+	color:white;
+}
+
