@@ -11,6 +11,33 @@ body {
 	font-family:'Druk',sans-serif;
 }
 
+.top-left, .top-right, .bottom-left, .bottom-right {
+	position:fixed;
+	font-size:10px;
+}
+
+.top-left {
+	top:3vw;
+	left:3vw;
+}
+
+.top-right {
+	top:3vw;
+	right:3vw;
+	text-align:right;
+}
+
+.bottom-left {
+	bottom:3vw;
+	left:3vw;
+}
+
+.bottom-right {
+	bottom:3vw;
+	right:3vw;
+	text-align:right;
+}
+
 .intro {
 	margin:5vw 0 0;
 	padding:0;
