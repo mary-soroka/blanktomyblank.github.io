@@ -11,30 +11,43 @@ body {
 	font-family:'Druk',sans-serif;
 }
 
+a {
+	text-decoration:none;
+	color:#272955;
+	border-bottom:2px transparent;
+	padding:4px;
+	transition:ease .5s;
+}
+
+a:hover {
+	border-bottom:2px solid;
+}
+
 .top-left, .top-right, .bottom-left, .bottom-right {
 	position:fixed;
 	font-size:10px;
+	z-index:999999999;
 }
 
 .top-left {
-	top:3vw;
-	left:3vw;
+	top:4vw;
+	left:4vw;
 }
 
 .top-right {
-	top:3vw;
-	right:3vw;
+	top:4vw;
+	right:4vw;
 	text-align:right;
 }
 
 .bottom-left {
-	bottom:3vw;
-	left:3vw;
+	bottom:4vw;
+	left:4vw;
 }
 
 .bottom-right {
-	bottom:3vw;
-	right:3vw;
+	bottom:4vw;
+	right:4vw;
 	text-align:right;
 }
 
@@ -95,12 +108,13 @@ button {
 	font-family:'Druk',sans-serif;
 	padding:2px 15px;
 	color:#272955;
-	transition:ease .1s;
+	transition:ease .5s;
 	margin-left:1vw;
 }
 
 button:hover {
 	background-color:white;
+	cursor:pointer;
 }
 
 button:active {
