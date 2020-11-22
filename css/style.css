@@ -14,13 +14,12 @@ body {
 a {
 	text-decoration:none;
 	color:#272955;
-	border-bottom:2px transparent;
-	padding:4px;
-	transition:ease .5s;
+	padding:4px 8px;
+	transition:ease .2s;
 }
 
 a:hover {
-	border-bottom:2px solid;
+	background-color:#B4FF86;
 }
 
 .top-left, .top-right, .bottom-left, .bottom-right {
@@ -108,7 +107,7 @@ button {
 	font-family:'Druk',sans-serif;
 	padding:2px 15px;
 	color:#272955;
-	transition:ease .5s;
+	transition:ease .2s;
 	margin-left:1vw;
 }
 
