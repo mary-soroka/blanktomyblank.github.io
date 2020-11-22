@@ -119,8 +119,7 @@
 		"You're the hand sanitizer to my 2020.",
 		"You're the Kawhi Leonard to my rare and fleeting emotions.",
 		"You're the 'ignore' to my new friend request",
-		"You're the snooze button to my alarm clock.",
-		"You're the "
+		"You're the snooze button to my alarm clock."
 		);
 
 function randomYoure() {
