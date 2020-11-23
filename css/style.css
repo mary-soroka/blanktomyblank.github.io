@@ -7,8 +7,16 @@ body {
 	padding:0;
 	margin:0;
 	color:#272955;
-	background:#c4c6cb;
+	background:#fffc00;
 	font-family:'Druk',sans-serif;
+	cursor:'css/images/cursor.gif';
+}
+
+.st0{fill:#272955;}
+
+
+body, html{
+  height:100%;
 }
 
 a {
@@ -17,14 +25,14 @@ a {
 	padding:4px 8px;
 	transition:ease .2s;
 }
-
-a:hover {
-	background-color:#B4FF86;
+svg {
+	width:2.5vw;
+	transition:ease .2s;
 }
 
 .top-left, .top-right, .bottom-left, .bottom-right {
 	position:fixed;
-	font-size:10px;
+	font-size:1.2vw;
 	z-index:999999999;
 }
 
@@ -50,60 +58,39 @@ a:hover {
 	text-align:right;
 }
 
-.intro {
-	margin:5vw 0 0;
+.content {
+	position:fixed;
+	margin:0;
 	padding:0;
-	text-align:center;
-	width:100%;
-	height:10vw;
-	line-height:1;
-	font-size:14px;
-	background-image:url('images/heart.png');
-	background-size:10% auto;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+	background-image:url('images/heart.svg');
+	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
-.intro p {
-	padding-top:3.8vw;
-}
-
-.content {
-	margin:4vw 0 0;
-	width: 100%;
-	text-align:center;
-	/*background-image:url('images/cardib.png');
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:200px;*/
-	}
-
 .content textarea {
 	font-family:'Druk',sans-serif;
-	font-size:5vw;
+	font-size:6vw;
 	line-height:1.1;
 	text-align:center;
 	color:#272955;
 	background:transparent;
-	width:58%;
-	height:25vw;
+	width:80%;
+	height:22vw;
 	border:0;
 	resize: none;
-	padding:0;
 	overflow:hidden;
 }
 
-.buttons {
-	position:fixed;
-	bottom:0;
-	padding:0 0 4vw;
-	width:100%;
-}
-
 button {
-	background:#B4FF86;
+	background:white;
 	border:0;
-	font-size:30px;
+	font-size:2vw;
 	font-family:'Druk',sans-serif;
 	padding:2px 15px;
 	color:#272955;
@@ -112,7 +99,8 @@ button {
 }
 
 button:hover {
-	background-color:white;
+	background-color:#272955;
+	color:#fffc00;
 	cursor:pointer;
 }
 

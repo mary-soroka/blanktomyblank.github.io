@@ -1,5 +1,5 @@
 	var youre = Array(
-		"You're the Cardi B to my wet a** p*ssy.",
+		"You're the Cardi B<br>to my wet a** p*ssy.",
 		"You're the Lindsay to my Lohan.",
 		"You're the Ron to my Hermione.",
 		"You're the dill to my pickle.",
@@ -97,7 +97,6 @@
 		"You're the anesthetic to my root canal.",
 		"You're the mustache to my Movember.",
 		"You're the wingardium to my leviosa.",
-		"You're the chocolate chips in my pancake.",
 		"You're the butter to my bread.",
 		"You're the love to my live laugh.",
 		"You're the Canada Goose jacket to my King St W.",
@@ -109,7 +108,7 @@
 		"You're the cat video to my rabbit hole.",
 		"You're the lube to my tube.",
 		"You're the custom search to my PornHub.",
-		"You're the discheveled spokesperson to my Trivago.",
+		"You're the disheveled spokesman to my Trivago.",
 		"You're the leave-in treatment to my split ends.",
 		"You're the Pepto to my acid reflux.",
 		"You're the coffee to my morning.",
