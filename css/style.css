@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Volte';
-    src: url('Volte-Light.woff2') format('woff2'),
-        url('Volte-Light.woff') format('woff');
+    src: url('font/Volte-Light.woff2') format('woff2'),
+        url('font/Volte-Light.woff') format('woff');
     font-weight: 300;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Volte';
-    src: url('Volte-Bold.woff2') format('woff2'),
-        url('Volte-Bold.woff') format('woff');
+    src: url('font/Volte-Bold.woff2') format('woff2'),
+        url('font/Volte-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -17,8 +17,8 @@
 
 @font-face {
     font-family: 'Volte';
-    src: url('Volte-Medium.woff2') format('woff2'),
-        url('Volte-Medium.woff') format('woff');
+    src: url('font/Volte-Medium.woff2') format('woff2'),
+        url('font/Volte-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'Volte';
-    src: url('Volte-Semibold.woff2') format('woff2'),
-        url('Volte-Semibold.woff') format('woff');
+    src: url('font/Volte-Semibold.woff2') format('woff2'),
+        url('font/Volte-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -35,8 +35,8 @@
 
 @font-face {
     font-family: 'Volte';
-    src: url('Volte.woff2') format('woff2'),
-        url('Volte.woff') format('woff');
+    src: url('font/Volte.woff2') format('woff2'),
+        url('font/Volte.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -53,6 +53,7 @@ body {
 	color:#272955;
 	background:#fffc00;
     font-family: 'Volte', sans-serif;
+    font-weight:700;
 	cursor:'css/images/cursor.gif';
 }
 
@@ -76,7 +77,8 @@ svg {
 
 .top-left, .top-right, .bottom-left, .bottom-right {
 	position:fixed;
-	font-size:1.2vw;
+	font-size:2vw;
+	font-weight:600;
 	z-index:999999999;
 }
 
@@ -119,13 +121,15 @@ svg {
 
 .content textarea {
     font-family: 'Volte', sans-serif;
-	font-size:6vw;
-	line-height:1.1;
+    font-weight:700;
+	font-size:8vw;
+	letter-spacing:-2pt;
+	line-height:1;
 	text-align:center;
 	color:#272955;
 	background:transparent;
-	width:80%;
-	height:22vw;
+	width:70%;
+	height:26vw;
 	border:0;
 	resize: none;
 	overflow:hidden;
@@ -136,6 +140,7 @@ button {
 	border:0;
 	font-size:2vw;
     font-family: 'Volte', sans-serif;
+    font-weight:600;
     padding:2px 15px;
 	color:#272955;
 	transition:ease .2s;
@@ -144,7 +149,7 @@ button {
 
 button:hover {
 	background-color:#272955;
-	color:#fffc00;
+	color:#ffffff;
 	cursor:pointer;
 }
 
