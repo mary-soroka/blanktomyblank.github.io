@@ -1,4 +1,48 @@
 @font-face {
+    font-family: 'Volte';
+    src: url('Volte-Light.woff2') format('woff2'),
+        url('Volte-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('Volte-Bold.woff2') format('woff2'),
+        url('Volte-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('Volte-Medium.woff2') format('woff2'),
+        url('Volte-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('Volte-Semibold.woff2') format('woff2'),
+        url('Volte-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('Volte.woff2') format('woff2'),
+        url('Volte.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
 	font-family: 'druk';
 	src: url('font/druk.otf');
 }
@@ -8,7 +52,7 @@ body {
 	margin:0;
 	color:#272955;
 	background:#fffc00;
-	font-family:'Druk',sans-serif;
+    font-family: 'Volte', sans-serif;
 	cursor:'css/images/cursor.gif';
 }
 
@@ -67,7 +111,7 @@ svg {
     align-items: center;
     justify-content: center;
     height: 100%;
-	background-image:url('images/heart.svg');
+	/*--background-image:url('images/heart.svg');--*/
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
