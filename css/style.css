@@ -42,10 +42,10 @@
     font-display: swap;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'druk';
 	src: url('font/druk.otf');
-}
+}*/
 
 body {
 	padding:0;
@@ -118,7 +118,7 @@ svg {
 }
 
 .content textarea {
-	font-family:'Druk',sans-serif;
+    font-family: 'Volte', sans-serif;
 	font-size:6vw;
 	line-height:1.1;
 	text-align:center;
