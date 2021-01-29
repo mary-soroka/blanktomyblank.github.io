@@ -135,8 +135,8 @@ button {
 	background:white;
 	border:0;
 	font-size:2vw;
-	font-family:'Druk',sans-serif;
-	padding:2px 15px;
+    font-family: 'Volte', sans-serif;
+    padding:2px 15px;
 	color:#272955;
 	transition:ease .2s;
 	margin-left:1vw;
