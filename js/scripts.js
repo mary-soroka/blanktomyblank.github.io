@@ -149,7 +149,15 @@
 		"You're the laugh track to my Big Bang Theory.",
 		"You're the bread recipe to my quarantine.",
 		"You're the vaccine to my COVID-19.",
-		
+		"You're the acceptance to my radical self.",
+		"You're the bees to my knees.",
+		"You're the pajamas to my cat.",
+		"You're the subtitles to my action movie.",
+		"You're the joke to my awkward moment.",
+		"You're the cheddar biscuits to my Red Lobster.",
+		"You're the double tap to my IG post.",
+		"You're the "
+
 
 		
 			
