@@ -163,7 +163,47 @@
 		"You're the luxury candle to my living room.",
 		"You're the free toothbrush to my dentist appointment.",
 		"You're the 'all done' to my pap smear.",
-		"You're the "
+		"You're the wood oven to my Montreal style bagel.",
+		"You're the Angela to my Dwight.",
+		"You're the Jim to my Pam.",
+		"You're the jam to my peanut butter.",
+		"You're the recovery day to my workout week.",
+		"You're the cancelled meeting to my Friday.",
+		"You're the pumpkin spice to my latte.",
+		"You're the rat chef to my Pixar film.",
+		"You're the mimosa to my brunch.",
+		"You're the bloody caesar to my hangover.",
+		"You're the dill to my potato salad.",
+		"You're the stimulus cheque to my global pandemic.",
+		"You're the best friend to my wedding.",
+		"You're the flute to my Lizzo lips.",
+		"You're the butterfly clips to my snatched 90's hairstlye.",
+		"You're the gum to my blow pop.",
+		"You're the platinum card to my Pokemon pack.",
+		"You're the record low interest rate to my mortgage.",
+		"You're the protein shake to my post-workout.",
+		"You're the macros to my gains.",
+		"You're the jailtime to my Harvey Weinstein scandal.",
+		"You're the AOC to my US congress.",
+		"You're the wind to my wings.",
+		"You're the 'lol' to my awkward text convo.",
+		"You're the Nimbus 2000 to my quidditch game.",
+		"You're the Sirius to my Harry Potter series.",
+		"You're the time warp effect to my TikTok.",
+		"You're the notificaiton to my social media addiction.",
+		"You're the WWOOMMMMMMM to my Chris Nolan film.",
+		"You're the father to my Darth Vader.",
+		"You're the Samwise to my Frodo.",
+		"You're the mutual consent to my sexual encounter.",
+		"You're the shell to my turtle bod.",
+		"You're the tutti frutti to my Jelly Bellies.",
+		"You're the tulip field to my scenic Amsterdam adventure.",
+		"You're the Jeff Goldblum to my Jurassic Park.",
+
+
+
+
+
 
 		
 			
