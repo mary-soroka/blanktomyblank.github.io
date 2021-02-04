@@ -139,6 +139,18 @@
 		"You're the memories to my moonlight.",
 		"You're the monotone outfit to my cult uniform.",
 		"You're the nightmares to my murder podcast obsession.",
+		"You're the Scooby to my Doo.",
+		"You're the top to my muffin.",
+		"You're the sophisticated burn to my sassy Alex Trebek.",
+		"You're the right to my Tinder swipe.",
+		"You're the sideburns to my John Travolta.",
+		"You're the main character kill-off to my Game of Thrones.",
+		"You're the chocolate to my period week.",
+		"You're the laugh track to my Big Bang Theory.",
+		"You're the bread recipe to my quarantine.",
+		"You're the vaccine to my COVID-19.",
+		
+
 		
 			
 		);
