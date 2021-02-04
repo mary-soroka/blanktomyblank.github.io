@@ -1,14 +1,59 @@
 @font-face {
+    font-family: 'Volte';
+    src: url('font/Volte-Light.woff2') format('woff2'),
+        url('font/Volte-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('font/Volte-Bold.woff2') format('woff2'),
+        url('font/Volte-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('font/Volte-Medium.woff2') format('woff2'),
+        url('font/Volte-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('font/Volte-Semibold.woff2') format('woff2'),
+        url('font/Volte-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Volte';
+    src: url('font/Volte.woff2') format('woff2'),
+        url('font/Volte.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@font-face {
 	font-family: 'druk';
 	src: url('font/druk.otf');
-}
+}*/
 
 body {
 	padding:0;
 	margin:0;
 	color:#272955;
 	background:#fffc00;
-	font-family:'Druk',sans-serif;
+    font-family: 'Volte', sans-serif;
+    font-weight:700;
 	cursor:'css/images/cursor.gif';
 }
 
@@ -32,7 +77,8 @@ svg {
 
 .top-left, .top-right, .bottom-left, .bottom-right {
 	position:fixed;
-	font-size:1.2vw;
+	font-size:2vw;
+	font-weight:600;
 	z-index:999999999;
 }
 
@@ -67,21 +113,25 @@ svg {
     align-items: center;
     justify-content: center;
     height: 100%;
-	background-image:url('images/heart.svg');
+	/*--background-image:url('images/heart.svg');--*/
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
 .content textarea {
-	font-family:'Druk',sans-serif;
-	font-size:6vw;
-	line-height:1.1;
+    font-family: 'Volte', sans-serif;
+    font-weight:700;
+	font-size:7vw;
+	letter-spacing:-2pt;
+	line-height:1;
 	text-align:center;
+	display: table;
+	padding:15vw 0;
 	color:#272955;
 	background:transparent;
-	width:80%;
-	height:22vw;
+	width:50%;
+	height:100%;
 	border:0;
 	resize: none;
 	overflow:hidden;
@@ -91,8 +141,9 @@ button {
 	background:white;
 	border:0;
 	font-size:2vw;
-	font-family:'Druk',sans-serif;
-	padding:2px 15px;
+    font-family: 'Volte', sans-serif;
+    font-weight:600;
+    padding:2px 15px;
 	color:#272955;
 	transition:ease .2s;
 	margin-left:1vw;
@@ -100,7 +151,7 @@ button {
 
 button:hover {
 	background-color:#272955;
-	color:#fffc00;
+	color:#ffffff;
 	cursor:pointer;
 }
 
