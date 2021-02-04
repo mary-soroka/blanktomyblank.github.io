@@ -111,7 +111,7 @@
 		"You're the Abbi to my Ilana.",
 		"You're the Kawhi Leonard to my rare and fleeting emotions.",
 		"You're the 'ignore' to my new friend requests.",
-		"You're the snooze button to my alarm clock.",
+		"You're the snooze to my alarm clock.",
 		"You're the peach to my fruit basket.",
 		"You're the fly to my Mike Pence head.",
 		"You're the doodie to my howdie.",
@@ -156,8 +156,14 @@
 		"You're the joke to my awkward moment.",
 		"You're the cheddar biscuits to my Red Lobster.",
 		"You're the double tap to my IG post.",
+		"You're the double knot to my running shoes.",
+		"You're the free bread to my overpriced dinner.",
+		"You're the XL chocolate bar to Halloween.",
+		"You're the Usher to my early 2000's club night.",
+		"You're the luxury candle to my living room.",
+		"You're the free toothbrush to my dentist appointment.",
+		"You're the 'all done' to my pap smear.",
 		"You're the "
-
 
 		
 			
