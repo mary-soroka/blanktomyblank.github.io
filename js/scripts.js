@@ -247,7 +247,7 @@
 		"You're the\npower-on sound\nto my\nPS5.",
 		"You're the\ndouble\nto my\nrainbow.",
 		"You're the\navocado\nto my\nhealthy lifestlye.",
-		"You're the\nhee hee\nto my\nMichael Jackson.",			
+		"You're the\nhee hee\nto my\nMichael Jackson.",
 		);
 
 function randomYoure() {
@@ -261,3 +261,51 @@ function copy() {
   randomYoure.select();
   document.execCommand("copy");
 }
+
+/**
+ * * *******************
+ * * ADD BACKGROUND HEART
+ * * *******************
+ */
+
+window.addEventListener('DOMContentLoaded', function() {
+	const renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true } );
+	renderer.setPixelRatio( window.devicePixelRatio );
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.setClearColor(0xffffff, 0);
+	document.body.appendChild(renderer.domElement);
+
+	const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
+	camera.position.set(0, 0, 800);
+	camera.lookAt(new THREE.Vector3());
+
+	const scene = new THREE.Scene();
+
+	// model
+	const loader = new THREE.FBXLoader();
+	loader.load("public/heart.fbx", function ( object ) {
+		object.children.forEach((obj) => {
+			if (obj.type === "Mesh") {
+				obj.position.y = -100;
+				obj.material = new THREE.MeshBasicMaterial({ color: 0xE62048 });
+				scene.add(obj);
+			}
+		})
+	} );
+
+	const mouseControl = new MouseControls(camera, { mouseMove: [-500, -600], velocity: [0.1, 0.1] });
+	mouseControl.lookAt = new THREE.Vector3();
+
+	window.addEventListener( 'resize', function() {
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+		renderer.setSize(window.innerWidth, window.innerHeight);
+	});
+
+	function loop() {
+		requestAnimationFrame( loop );
+		mouseControl.update();
+		renderer.render( scene, camera );
+	}
+	loop();
+});
