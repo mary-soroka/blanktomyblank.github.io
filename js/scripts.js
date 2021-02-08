@@ -204,7 +204,14 @@
 		"You're the ice cream to my hot summer day.",
 		"You're the Tammy to my Ron Swanson.",
 		"You're the cheese to my KETO diet.",
-		"You're the "
+		"You're the Uber Eats to my quarantine.",
+		"You're the popsicle to my pool party.",
+		"You're the Saturday to my Monday to Friday.",
+		"You're the Vix rub to my dry cough.",
+		"You're the Eiffel Tower to my eurotrip.",
+		"You're the elder wand to my deathly hallows.",
+		
+
 
 		
 			
