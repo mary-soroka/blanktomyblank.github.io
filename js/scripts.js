@@ -201,11 +201,10 @@
 		"You're the supplement to my iron deficiency.",
 		"You're the B12 shot to my irritable tendancies.",
 		"You're the hand-knit mittens to my Bernie Sanders inaguration appearance.",
-
-
-
-
-
+		"You're the ice cream to my hot summer day.",
+		"You're the Tammy to my Ron Swanson.",
+		"You're the cheese to my KETO diet.",
+		"You're the "
 
 		
 			
