@@ -43,7 +43,7 @@
 		"You're the baby Yoda to my Star Wars franchise.",
 		"You're the cinnamon to my candy heart.",
 		"You're the Cady Haren to my Aaron Samuels.",
-		"You're the 'go' to my Glen Coco.",
+		"You're the 'you go' to my Glen Coco.",
 		"You're the corn to my cob.",
 		"You're the horn to my unicorn.",
 		"You're the Donkey to my Kong.",
@@ -220,7 +220,7 @@
 		"You're the PS5 to my living room.",
 		"You're the recovered Word doc to my computer crash.",
 		"You're the noodles to my chicken soup.",
-		"You're the muscle tee to my 'sup bro.",
+		"You're the muscle tee to my 'sup bro'.",
 		"You're the serum to my skin care routine.",
 		"You're the top 8 to my Myspace.",
 		"You're the cooldown to my HIIT workout.",
@@ -230,7 +230,21 @@
 		"You're the window to my wall.",
 		"You're the milk to my cookies.",
 		"You're the window seat to my plane ride.",
-		
+		"You're the umbrella to my rainy day.",
+		"You're the Lebron James to my basketball.",
+		"You're the Goku to my Dragonball.",
+		"You're the pleats to my pants.",
+		"You're the squats to my leg day.",
+		"You're the overwhelmingly happy memory to my patronus charm.",
+		"You're the butter to my popcorn.",
+		"You're the gas to my car.",
+		"You're the bubble to my tea.",
+		"You're the noise cancelling headphones to my open concept workspace.",
+		"You're the headphones to my gym workout.",
+		"You're the fire to my hot air balloon.",
+
+
+
 
 
 
