@@ -210,7 +210,28 @@
 		"You're the Vix rub to my dry cough.",
 		"You're the Eiffel Tower to my eurotrip.",
 		"You're the elder wand to my deathly hallows.",
+		"You're the ethical diamond to my engagement ring.",
+		"You're the Impossible burger to my vegetarian diet.",
+		"You're the shellac to my manicure.",
+		"You're the marshmallows to my hot chocolate.",
+		"You're the sunscreen to my Irish skin.",
+		"You're the New Balance shoes to my wideset feet.",
+		"You're the coaster to my coffee table.",
+		"You're the PS5 to my living room.",
+		"You're the recovered Word doc to my computer crash.",
+		"You're the noodles to my chicken soup.",
+		"You're the muscle tee to my 'sup bro.",
+		"You're the serum to my skin care routine.",
+		"You're the top 8 to my Myspace.",
+		"You're the cooldown to my HIIT workout.",
+		"You're the fart to my indigestion.",
+		"You're the flip to my flop.",
+		"You're the needle to my compass.",
+		"You're the window to my wall.",
+		"You're the milk to my cookies.",
+		"You're the window seat to my plane ride.",
 		
+
 
 
 		
