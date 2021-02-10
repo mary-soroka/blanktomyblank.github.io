@@ -91,7 +91,7 @@
 		"You're the guac to my burrito.",
 		"You're the yeast starter to my sourdough bread.",
 		"You're the 99.9% effectiveness to my vaccine.",
-		"You're the lint to my bellybutton.",
+		"You're the lint to my belly button.",
 		"You're the cat video to my rabbit hole.",
 		"You're the custom search to my porn experience.",
 		"You're the disheveled spokesman to my Trivago.",
@@ -242,7 +242,12 @@
 		"You're the noise cancelling headphones to my open concept workspace.",
 		"You're the headphones to my gym workout.",
 		"You're the fire to my hot air balloon.",
-		
+		"You're the ensuite laundry to my 500 square foot condo.",
+		"You're the baby shark to my doo doo doo doo.",
+		"You're the power on sound to my PS5.",
+		"You're the double to my raindbow.",
+		"You're the avocado to my healthy lifestlye.",
+		"You're the hee hee to my Michael Jackson.",
 
 
 
