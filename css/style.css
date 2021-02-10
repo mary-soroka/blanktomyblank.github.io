@@ -65,12 +65,10 @@ body, html{
 a {
 	text-decoration:none;
 	color:#272955;
-	padding:4px 8px;
 	transition:ease .2s;
 }
 
 a img {width:50px;
-	padding-left:10px;
 	margin:0;
 	transition:ease .3s;}
 
