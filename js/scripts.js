@@ -200,7 +200,7 @@
 		"You're the\nalternate route\nto my\ntraffic jam.",
 		"You're the\nsupplement\nto my\niron deficiency.",
 		"You're the\nB12 shot\nto my\nirritable tendancies.",
-		"You're the\nhand-knit mittens\nto my\nBernie Sanders inaguration appearance."
+		"You're the\nhand-knit mittens\nto my\nBernie Sanders inaguration appearance.",
 		"You're the\nice cream\nto my\nhot summer day.",
 		"You're the\nTammy\nto my\nRon Swanson.",
 		"You're the\ncheese\nto my\nKETO diet.",
