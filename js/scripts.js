@@ -234,7 +234,7 @@
 		"You're the\npower-on sound\nto my\nPS5.",
 		"You're the\ndouble\nto my\nrainbow.",
 		"You're the\navocado\nto my\nhealth kick.",
-		"You're the\nhee hee\nto my\nMJ.",
+		"You're the\n'hee hee'\nto my\nMJ.",
 		);
 
 function randomYoure() {
