@@ -45,7 +45,7 @@
 body,html {
 	padding:0;
 	margin:0;
-	color:#ea7dc1;
+	color:#f390b8;
 	background:#ffe0f4;
     font-family: 'Volte', sans-serif;
     font-weight:700;
@@ -58,7 +58,7 @@ body,html {
 a {
 	transition:ease .3s;
 	text-decoration:none;
-	color: #ea7dc1;
+	color: #f390b8;
 	font-weight:600;
 }
 
