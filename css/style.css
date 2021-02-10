@@ -109,7 +109,6 @@ a img:hover, button:hover {
 	background-size:30% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
-	border:1px solid blue;
 }
 
 .content textarea {
