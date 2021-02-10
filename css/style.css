@@ -60,7 +60,6 @@ a {
 	text-decoration:none;
 	color: #f390b8;
 	font-weight:600;
-	padding:2px;
 }
 
 a:hover {
@@ -91,6 +90,7 @@ textarea:hover {
 
 .top-right  a {
 	margin-left:2vw;
+	padding:2px;
 }
 
 .bottom-left {
