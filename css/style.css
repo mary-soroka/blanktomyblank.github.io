@@ -160,16 +160,11 @@ button {
     outline::none;
     outline:none;
     box-shadow:none;
+    margin:0 0 0 1.5vw;
 }
 
 button:hover {
 	cursor:pointer;
-}
-
-#copy:hover {
-	color:#ffe0f4;
-	background-color:#f390b8;
-	border-color:#f390b8;
 }
 
 #go {
@@ -178,12 +173,14 @@ button:hover {
 	border-color:#ff0707;
 }
 
-#go:hover: {
-	border:10px solid;
+#go:hover {
+	color:#fff;
 }
 
-#copy {
-    margin-left:1vw;
+#copy:hover, #shop:hover {
+	color:#ffe0f4;
+	background-color:#f390b8;
+	border-color:#f390b8;
 }
 
 .canvas {
