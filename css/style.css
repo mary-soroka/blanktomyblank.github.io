@@ -138,7 +138,7 @@ textarea:hover {
 	resize: none;
 	overflow:hidden;
 	color: transparent;
-	text-shadow: 0px 0px 0px #de4086;
+	text-shadow: 0px 0px 0px #ff0707;
 }
 
 ::selection {background:transparent;}
@@ -151,6 +151,10 @@ button {
 	background:transparent;
 	border:0;
 	transition:ease .1s;
+	color:#ff0707;
+    font-family: 'Volte', sans-serif;
+    font-weight:700;
+    font-size:1.8vw;
 }
 
 button:hover {
