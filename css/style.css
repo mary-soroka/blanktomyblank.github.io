@@ -48,10 +48,10 @@ body,html {
 	color:#f390b8;
 	background:#ffe0f4;
     font-family: 'Volte', sans-serif;
-    font-weight:700;
+    font-weight:600;
 	cursor:url('css/images/cursor.png');
 	height:100%;
-	font-size:1.2vw;
+	font-size:1.5vw;
 	font-weight:500;
 }
 
@@ -79,8 +79,8 @@ textarea:hover {
 .top-left {
 	top:4vw;
 	left:4vw;
-	font-size:2vw;
-	font-weight:700;
+	font-size:2.5vw;
+	font-weight:600;
 }
 
 .top-right {
@@ -155,8 +155,8 @@ button {
     font-family: 'Volte', sans-serif;
     font-weight:600;
     font-size:1.5vw;
-    border:2px solid;
-    padding:8px 15px 6px;
+    border:3px solid;
+    padding:6px 12px 4px;
 }
 
 button:hover {
