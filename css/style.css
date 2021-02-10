@@ -161,7 +161,6 @@ button {
 
 button:hover {
 	cursor:pointer;
-    transform: rotate(8deg);
 }
 
 button:active {
@@ -176,19 +175,13 @@ button:active {
 }
 
 #go:hover, #copy:hover {
+	color:#ffe0f4;
 	background-color:#ff0707;
-}
-
-button #go:active {
+	border-color:#ff0707;
 }
 
 #copy {
     margin-left:1vw;
-}
-
-#copy:active {
-	width:9vw;
-	height:9vw;
 }
 
 .canvas {
