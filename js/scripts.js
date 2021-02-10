@@ -268,6 +268,19 @@ function copy() {
  * * *******************
  */
 
+ // You can change the props from there !
+ const CAMERA_POSITION = { x: 0, y: 0, z: 400 };
+
+ const MOUSE_MOVE = { x: -400, y: -200 };
+
+ const HEART_POSITION = { x: 0, y: -0, z: 0 };
+ const HEART_ROTATION = { x: -5, y: 10, z: 0 };
+ const HEART_COLOR = "#FED4EC";
+
+ const LIGHT_COLOR = "#ffffff";
+ const LIGHT_INTENSITY = 1.2; // Should be 1 max! Try to update the texture
+
+
 window.addEventListener('DOMContentLoaded', function() {
 	const renderer = new THREE.WebGLRenderer( { antialias: true, alpha: true } );
 	renderer.setPixelRatio( window.devicePixelRatio );
@@ -276,24 +289,36 @@ window.addEventListener('DOMContentLoaded', function() {
 	document.body.appendChild(renderer.domElement);
 
 	const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
-	camera.position.set(0, 0, 800);
+	camera.position.set(CAMERA_POSITION.x, CAMERA_POSITION.y, CAMERA_POSITION.z);
 	camera.lookAt(new THREE.Vector3());
+
 
 	const scene = new THREE.Scene();
 
+	// light
+	const light = new THREE.AmbientLight(new THREE.Color(LIGHT_COLOR), LIGHT_INTENSITY);
+	scene.add(light);
+
 	// model
 	const loader = new THREE.FBXLoader();
+	const texture = new THREE.TextureLoader().load('public/heart.jpg');
 	loader.load("public/heart.fbx", function ( object ) {
 		object.children.forEach((obj) => {
 			if (obj.type === "Mesh") {
-				obj.position.y = -100;
-				obj.material = new THREE.MeshBasicMaterial({ color: 0xE62048 });
+				obj.position.set(HEART_POSITION.x, HEART_POSITION.y, HEART_POSITION.z);
+				obj.rotation.set(
+					Math.PI * HEART_ROTATION.x / 180,
+					Math.PI * HEART_ROTATION.y / 180,
+					Math.PI * HEART_ROTATION.z / 180
+				);
+				// obj.material.map = texture;
+				obj.material = new THREE.MeshPhongMaterial({ color: new THREE.Color(HEART_COLOR), map: texture });
 				scene.add(obj);
 			}
 		})
-	} );
+	});
 
-	const mouseControl = new MouseControls(camera, { mouseMove: [-500, -600], velocity: [0.1, 0.1] });
+	const mouseControl = new MouseControls(camera, { mouseMove: [MOUSE_MOVE.x, MOUSE_MOVE.y], velocity: [0.1, 0.1] });
 	mouseControl.lookAt = new THREE.Vector3();
 
 	window.addEventListener( 'resize', function() {
