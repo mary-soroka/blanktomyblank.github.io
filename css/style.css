@@ -45,36 +45,28 @@
 body,html {
 	padding:0;
 	margin:0;
-	color:#ff0707;
-	background:#ffd3ec;
+	color:#ea7dc1;
+	background:#ffc4e7;
     font-family: 'Volte', sans-serif;
     font-weight:700;
 	cursor:url('css/images/cursor.png');
 	height:100%;
-	font-size:2vw;
+	font-size:1.2vw;
+	font-weight:500;
+
 }
 
 a {
-	text-decoration:none;
-	color:#ff0707;
 	transition:ease .3s;
+	text-decoration:none;
+	color: #ea7dc1;
+	font-weight:600;
 }
 
-p a:hover {
+a:hover {
 	padding-bottom:5px;
 	border-bottom:2px solid;
-}
-
-a img {
-	width:40px;
-	padding-left:20px;
-	margin:0;
-	transition:ease .3s;
-}
-
-a img:hover, button:hover {
-	cursor:pointer;
-	transform: rotate(10deg);
+	color:#de4086;
 }
 
 textarea:hover {
@@ -84,16 +76,6 @@ textarea:hover {
 .top-left, .top-right, .bottom-left, .bottom-right {
 	position:fixed;
 	z-index:999999999;
-}
-
-p {
-	padding:0;
-	margin:0;
-}
-
-p a {
-	padding-bottom:5px;
-	border-bottom:2px transparent;
 }
 
 .top-left {
@@ -109,13 +91,15 @@ p a {
 	text-align:right;
 }
 
+.top-right  a {
+	margin-left:2vw;
+}
+
 .bottom-left {
 	bottom:4vw;
 	left:4vw;
-	color:#f0a7d5;
-	font-size:1.2vw;
-	font-weight:500;
 }
+
 
 .bottom-right {
 	bottom:4vw;
@@ -156,7 +140,7 @@ p a {
 	resize: none;
 	overflow:hidden;
 	color: transparent;
-	text-shadow: 0px 0px 0px #ff0707;
+	text-shadow: 0px 0px 0px #de4086;
 }
 
 ::selection {background:transparent;}
@@ -168,19 +152,43 @@ input:focus, textarea:focus, select:focus {
 button {
 	background:transparent;
 	border:0;
-    padding-left:10px;
-	transition:ease .3s;}
+	transition:ease .1s;
+}
 
-#go {
+button:hover {
+	cursor:pointer;
+    transform: rotate(8deg);
+    background-image:url('images/icon-go-active.png');
+}
+
+button:active {
+	position:relative;
+	top:4px;
+}
+
+#go, #copy, #shop {
 	width:9vw;
 	height:9vw;
-	background-image:url('images/icon-go.png');
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
+#go {
+        background-image:url('images/icon-go.png');
+}
+
+#go:active {
+ background-image:url('images/icon-go-active.png');
+}
+
 #copy {
+    background-image:url('images/icon-copy.png');
+    margin-left:1vw;
+}
+
+#copy:active {
+ background-image:url('images/icon-copy-active.png');
 	width:9vw;
 	height:9vw;
 	background-image:url('images/icon-copy.png');
