@@ -48,10 +48,10 @@ body,html {
 	color:#f390b8;
 	background:#ffe0f4;
     font-family: 'Volte', sans-serif;
-    font-weight:700;
+    font-weight:600;
 	cursor:url('css/images/cursor.png');
 	height:100%;
-	font-size:1.2vw;
+	font-size:1.5vw;
 	font-weight:500;
 }
 
@@ -60,6 +60,7 @@ a {
 	text-decoration:none;
 	color: #f390b8;
 	font-weight:600;
+	padding:2px;
 }
 
 a:hover {
@@ -78,8 +79,8 @@ textarea:hover {
 .top-left {
 	top:4vw;
 	left:4vw;
-	font-size:2vw;
-	font-weight:700;
+	font-size:2.5vw;
+	font-weight:600;
 }
 
 .top-right {
@@ -111,7 +112,7 @@ textarea:hover {
 	display:inline-block;
 	vertical-align:middle;
 	width: 100%;
-  height: 100%;
+	height: 100%;
 	// background-image:url('images/bg.png');
 	// background-size:50vw auto;
 	// background-repeat:no-repeat;
@@ -150,16 +151,17 @@ button {
 	background:transparent;
 	border:0;
 	transition:ease .1s;
-	color:#ff0707;
+	color:#f390b8;
     font-family: 'Volte', sans-serif;
-    font-weight:700;
-    font-size:1.8vw;
+    font-weight:600;
+    font-size:1.5vw;
+    border:3px solid;
+    padding:6px 12px 4px;
 }
 
 button:hover {
 	cursor:pointer;
     transform: rotate(8deg);
-    background-image:url('images/icon-go-active.png');
 }
 
 button:active {
@@ -167,35 +169,26 @@ button:active {
 	top:4px;
 }
 
-#go, #copy, #shop {
-	width:9vw;
-	height:9vw;
+#go, #copy {
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
-#go {
-        background-image:url('images/icon-go.png');
+#go:hover, #copy:hover {
+	background-color:#ff0707;
 }
 
 button #go:active {
- background-image:url('images/icon-go-active.png');
 }
 
 #copy {
-    background-image:url('images/icon-copy.png');
     margin-left:1vw;
 }
 
 #copy:active {
- background-image:url('images/icon-copy-active.png');
 	width:9vw;
 	height:9vw;
-	background-image:url('images/icon-copy.png');
-	background-size:100% auto;
-	background-repeat:no-repeat;
-	background-position:center center;
 }
 
 .canvas {
