@@ -60,7 +60,6 @@ a {
 	text-decoration:none;
 	color: #f390b8;
 	font-weight:600;
-	padding:2px;
 }
 
 a:hover {
@@ -91,6 +90,7 @@ textarea:hover {
 
 .top-right  a {
 	margin-left:2vw;
+	padding:2px;
 }
 
 .bottom-left {
@@ -150,23 +150,20 @@ input:focus, textarea:focus, select:focus {
 button {
 	background:transparent;
 	border:0;
-	transition:ease .1s;
+	transition:ease .2s;
 	color:#f390b8;
     font-family: 'Volte', sans-serif;
     font-weight:600;
     font-size:1.5vw;
     border:3px solid;
     padding:6px 12px 4px;
+    outline::none;
+    outline:none;
+    box-shadow:none;
 }
 
 button:hover {
 	cursor:pointer;
-    transform: rotate(8deg);
-}
-
-button:active {
-	position:relative;
-	top:4px;
 }
 
 #go, #copy {
@@ -176,19 +173,17 @@ button:active {
 }
 
 #go:hover, #copy:hover {
+	color:#ffe0f4;
 	background-color:#ff0707;
+	border-color:#ff0707;
 }
 
-button #go:active {
+#go {
+
 }
 
 #copy {
     margin-left:1vw;
-}
-
-#copy:active {
-	width:9vw;
-	height:9vw;
 }
 
 .canvas {
