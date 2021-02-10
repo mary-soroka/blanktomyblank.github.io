@@ -182,10 +182,8 @@ button {
 button:hover {
 	cursor:pointer;
     transform: rotate(8deg);
-
-
+    background-image:url('images/icon-go-active.png');
 }
-
 button:active {
 position: relative;
     top: .1vw;
@@ -202,6 +200,11 @@ position: relative;
 #go {
         background-image:url('images/icon-go.png');
 }
+
+#go:hover {
+ background-image:url('images/icon-go-active.png');
+}
+
 
 #copy {
     background-image:url('images/icon-copy.png');
