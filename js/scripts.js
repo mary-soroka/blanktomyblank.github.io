@@ -1,5 +1,5 @@
 	var youre = Array(
-		"You're the Cardi B<br>to my wet a** p*ssy.",
+		"You're the Cardi B to my wet a** p*ssy.",
 		"You're the Harry to my Sally.",
 		"You're the Ron to my Hermione.",
 		"You're the dill to my pickle.",
@@ -200,7 +200,7 @@
 		"You're the alternate route to my traffic jam.",
 		"You're the supplement to my iron deficiency.",
 		"You're the B12 shot to my irritable tendancies.",
-		"You're the hand-knit mittens to my Bernie Sanders inaguration appearance.",
+		/*"You're the hand-knit mittens to my Bernie Sanders inaguration appearance.",    TOO LONG :( */
 		"You're the ice cream to my hot summer day.",
 		"You're the Tammy to my Ron Swanson.",
 		"You're the cheese to my KETO diet.",
@@ -235,11 +235,11 @@
 		"You're the Goku to my Dragonball.",
 		"You're the pleats to my pants.",
 		"You're the squats to my leg day.",
-		"You're the overwhelmingly happy memory to my patronus charm.",
+		/*"You're the overwhelmingly happy memory to my patronus charm.",    TOO LONG :( */
 		"You're the butter to my popcorn.",
 		"You're the gas to my car.",
 		"You're the bubble to my tea.",
-		"You're the noise cancelling headphones to my open concept workspace.",
+		/*"You're the noise cancelling headphones to my open concept workspace.",    TOO LONG :( */
 		"You're the headphones to my gym workout.",
 		"You're the fire to my hot air balloon.",
 		"You're the ensuite laundry to my 500 square foot condo.",
@@ -248,11 +248,6 @@
 		"You're the double to my raindbow.",
 		"You're the avocado to my healthy lifestlye.",
 		"You're the hee hee to my Michael Jackson.",
-
-
-
-
-
 
 		
 			
