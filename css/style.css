@@ -166,20 +166,20 @@ button:hover {
 	cursor:pointer;
 }
 
-#go, #copy {
-	background-size:100% auto;
-	background-repeat:no-repeat;
-	background-position:center center;
+#copy:hover {
+	color:#ffe0f4;
+	background-color:#f390b8;
+	border-color:#f390b8;
 }
 
-#go:hover, #copy:hover {
+#go {
 	color:#ffe0f4;
 	background-color:#ff0707;
 	border-color:#ff0707;
 }
 
-#go {
-
+#go:hover: {
+	border:10px solid;
 }
 
 #copy {
