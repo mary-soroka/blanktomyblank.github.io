@@ -157,6 +157,9 @@ button {
     font-size:1.5vw;
     border:3px solid;
     padding:6px 12px 4px;
+    outline::none;
+    outline:none;
+    box-shadow:none;
 }
 
 button:hover {
@@ -173,6 +176,10 @@ button:hover {
 	color:#ffe0f4;
 	background-color:#ff0707;
 	border-color:#ff0707;
+}
+
+#go {
+
 }
 
 #copy {
