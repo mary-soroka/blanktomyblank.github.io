@@ -119,8 +119,8 @@ svg {
     align-items: center;
     justify-content: center;
     height: 100%;
-	/*--background-image:url('images/heart.svg');--*/
-	background-size:100% auto;
+	background-image:url('images/bg.png');
+	background-size:30% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
