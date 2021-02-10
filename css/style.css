@@ -174,9 +174,8 @@ button {
 	background:transparent;
 	border:0;
     padding-left:10px;
-	transition:ease .3s;
 	padding-left:9vw;
-
+	transition:ease .1s;
 }
 
 button:hover {
@@ -185,8 +184,6 @@ button:hover {
     background-image:url('images/icon-go-active.png');
 }
 button:active {
-position: relative;
-    top: .1vw;
 }
 
 #go, #copy, #shop {
@@ -201,7 +198,7 @@ position: relative;
         background-image:url('images/icon-go.png');
 }
 
-#go:hover {
+#go:active {
  background-image:url('images/icon-go-active.png');
 }
 
