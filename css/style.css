@@ -46,12 +46,12 @@ body,html {
 	padding:0;
 	margin:0;
 	color:#ff0707;
-	background:#ffd3ec;
+	background:#ffc4e7;
     font-family: 'Volte', sans-serif;
     font-weight:700;
 	cursor:url('css/images/cursor.png');
 	height:100%;
-		color:#f0a7d5;
+	color:#f0a7d5;
 	font-size:1.2vw;
 	font-weight:500;
 
@@ -206,4 +206,8 @@ button:active {
 #copy {
     background-image:url('images/icon-copy.png');
     margin-left:1vw;
+}
+
+#copy:active {
+ background-image:url('images/icon-copy-active.png');
 }
