@@ -200,7 +200,7 @@
 		"You're the\nalternate route\nto my\ntraffic jam.",
 		"You're the\nsupplement\nto my\niron deficiency.",
 		"You're the\nB12 shot\nto my\nirritable tendancies.",
-		/*"You're the\nhand-knit mittens\nto my\nBernie Sanders inaguration appearance.",   \ntoO LONG :( */
+		"You're the\nhand-knit mittens\nto my\nBernie Sanders inaguration appearance."
 		"You're the\nice cream\nto my\nhot summer day.",
 		"You're the\nTammy\nto my\nRon Swanson.",
 		"You're the\ncheese\nto my\nKETO diet.",
@@ -235,11 +235,11 @@
 		"You're the\nGoku\nto my\nDragonball.",
 		"You're the\npleats\nto my\npants.",
 		"You're the\nsquats\nto my\nleg day.",
-		/*"You're the\noverwhelmingly happy memory\nto my\npatronus charm.",   \ntoO LONG :( */
+		"You're the\noverwhelmingly happy memory\nto my\npatronus charm.",
 		"You're the\nbutter\nto my\npopcorn.",
 		"You're the\ngas\nto my\ncar.",
 		"You're the\nbubble\nto my\ntea.",
-		/*"You're the\nnoise cancelling headphones\nto my\nopen concept workspace.",   \ntoO LONG :( */
+		"You're the\nnoise cancelling headphones\nto my\nopen concept workspace.",
 		"You're the\nheadphones\nto my\ngym workout.",
 		"You're the\nfire\nto my\nhot air balloon.",
 		"You're the\nensuite laundry\nto my\n500 square foot condo.",
