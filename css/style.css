@@ -51,13 +51,17 @@ body,html {
     font-weight:700;
 	cursor:url('css/images/cursor.png');
 	height:100%;
-	font-size:2vw;
+		color:#f0a7d5;
+	font-size:1.2vw;
+	font-weight:500;
+
 }
 
 a {
-	text-decoration:none;
-	color:#ff0707;
 	transition:ease .3s;
+	color:#ff0707;
+		text-decoration:none;
+
 }
 
 p a:hover {
@@ -74,7 +78,6 @@ a img {
 
 a img:hover, button:hover {
 	cursor:pointer;
-	transform: rotate(10deg);
 }
 
 textarea:hover {
@@ -101,6 +104,7 @@ p a {
 	left:4vw;
 	font-size:2vw;
 	font-weight:700;
+		color:#ff0707;
 }
 
 .top-right {
@@ -109,12 +113,13 @@ p a {
 	text-align:right;
 }
 
+.top-right  a {
+	padding-left:2vw;
+}
+
 .bottom-left {
 	bottom:4vw;
 	left:4vw;
-	color:#f0a7d5;
-	font-size:1.2vw;
-	font-weight:500;
 }
 
 .bottom-right {
@@ -169,22 +174,35 @@ button {
 	background:transparent;
 	border:0;
     padding-left:10px;
-	transition:ease .3s;}
+	transition:ease .3s;
+	padding-left:9vw;
 
-#go {
+}
+
+button:hover {
+	cursor:pointer;
+    transform: rotate(8deg);
+
+
+}
+
+button:active {
+position: relative;
+    top: .1vw;
+}
+
+#go, #copy, #shop {
 	width:9vw;
 	height:9vw;
-	background-image:url('images/icon-go.png');
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 
+#go {
+        background-image:url('images/icon-go.png');
+}
+
 #copy {
-	width:9vw;
-	height:9vw;
-	background-image:url('images/icon-copy.png');
-	background-size:100% auto;
-	background-repeat:no-repeat;
-	background-position:center center;
+    background-image:url('images/icon-copy.png');
 }
