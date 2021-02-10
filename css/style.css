@@ -64,8 +64,6 @@ a {
 }
 
 a:hover {
-	padding-bottom:5px;
-	border-bottom:2px solid;
 	color:#de4086;
 }
 
@@ -178,15 +176,9 @@ button:active {
         background-image:url('images/icon-go.png');
 }
 
-#go:active {
+button #go:active {
  background-image:url('images/icon-go-active.png');
 }
-
-#go:focus {
- background-image:url('images/icon-shop.png');
-}
-
-
 
 #copy {
     background-image:url('images/icon-copy.png');
