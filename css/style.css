@@ -183,7 +183,10 @@ button:hover {
     transform: rotate(8deg);
     background-image:url('images/icon-go-active.png');
 }
+
 button:active {
+	position:relative;
+	top:4px;
 }
 
 #go, #copy, #shop {
