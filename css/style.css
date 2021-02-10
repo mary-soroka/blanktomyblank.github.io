@@ -46,14 +46,13 @@ body,html {
 	padding:0;
 	margin:0;
 	color:#ea7dc1;
-	background:#ffc4e7;
+	background:#ffe0f4;
     font-family: 'Volte', sans-serif;
     font-weight:700;
 	cursor:url('css/images/cursor.png');
 	height:100%;
 	font-size:1.2vw;
 	font-weight:500;
-
 }
 
 a {
