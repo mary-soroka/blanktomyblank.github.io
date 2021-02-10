@@ -245,7 +245,7 @@
 		"You're the\nensuite laundry\nto my\n500 square foot condo.",
 		"You're the\nbaby shark\nto my\ndoo doo doo doo.",
 		"You're the\npower on sound\nto my\nPS5.",
-		"You're the\ndouble\nto my\nraindbow.",
+		"You're the\ndouble\nto my\nrainbow.",
 		"You're the\navocado\nto my\nhealthy lifestlye.",
 		"You're the\nhee hee\nto my\nMichael Jackson.",
 
