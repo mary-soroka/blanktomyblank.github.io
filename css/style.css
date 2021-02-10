@@ -150,7 +150,7 @@ input:focus, textarea:focus, select:focus {
 button {
 	background:transparent;
 	border:0;
-	transition:ease .1s;
+	transition:ease .2s;
 	color:#f390b8;
     font-family: 'Volte', sans-serif;
     font-weight:600;
@@ -161,11 +161,6 @@ button {
 
 button:hover {
 	cursor:pointer;
-}
-
-button:active {
-	position:relative;
-	top:4px;
 }
 
 #go, #copy {
