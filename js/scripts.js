@@ -123,11 +123,7 @@
 		"You're the\nmmm\nto my\nbop.",
 		"You're the\nBoardwalk\nto my\nMonopoly.",
 		"You're the\nred butt\nto my\nrecess.",
-<<<<<<< HEAD
-		"You're the\nmonochromatic\nto my\ncult uniform.",
-=======
 		"You're the\nmonochrome\nto my\ncult uniform.",
->>>>>>> c85504c3765da8355f3fb52be8dac4486b7b5394
 		"You're the\nnightmare\nto my\nmurder podcast.",
 		"You're the\nScooby\nto my\nDoo.",
 		"You're the\ntop\nto my\nmuffin.",
