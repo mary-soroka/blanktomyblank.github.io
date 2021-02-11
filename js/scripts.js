@@ -124,7 +124,7 @@
 		"You're the\nBoardwalk\nto my\nMonopoly.",
 		"You're the\nred butt\nto my\nrecess.",
 		"You're the\nmonochromatic\nto my\ncult uniform.",
-		"You're the\nnightmares\nto my\nmurder podcast.",
+		"You're the\nnightmare\nto my\nmurder podcast.",
 		"You're the\nScooby\nto my\nDoo.",
 		"You're the\ntop\nto my\nmuffin.",
 		"You're the\nnice burn\nto my\nAlex Trebek.",
