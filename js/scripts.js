@@ -26,7 +26,7 @@
 		"You're the\nNetflix\nto my\nchill.",
 		"You're the\nwhite girl\nto my\nwasted.",
 		"You're the\nreproductive rights\nto my\nuterus.",
-		"You're the\nmute button\nto my\nzoom call.",
+		"You're the\nmute button\nto my\nZoom call.",
 		"You're the\nRobaxx\nto my\nback pain.",
 		"You're the\n'skip'\nto my\nsponsored ad.",
 		"You're the\nYOLO\nto my\nFOMO.",
