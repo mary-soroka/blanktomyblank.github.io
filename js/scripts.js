@@ -123,7 +123,7 @@
 		"You're the\nmmm\nto my\nbop.",
 		"You're the\nBoardwalk\nto my\nMonopoly.",
 		"You're the\nred butt\nto my\nrecess.",
-		"You're the\nmonochromatic\nto my\ncult uniform.",
+		"You're the\nmonochrome\nto my\ncult uniform.",
 		"You're the\nnightmares\nto my\nmurder podcast.",
 		"You're the\nScooby\nto my\nDoo.",
 		"You're the\ntop\nto my\nmuffin.",
@@ -242,14 +242,19 @@ function randomYoure() {
    "Anotha one!";
 }
 
-
 function copy() {
   let randomYoure = document.getElementById("randomYoure");
   randomYoure.select();
   document.execCommand("copy");
-  document.getElementById('copied').style.display = "block";
-
 }
+
+function copied() {
+  document.getElementById('copied').style.display = "block";
+}
+
+
+
+
 
 /**
  * * *******************
