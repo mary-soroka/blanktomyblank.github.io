@@ -73,7 +73,7 @@
 		"You're the\nMariah Carey\nto my\ndolphin whistle.",
 		"You're the\nsports car\nto my\nmid-life crisis.",
 		"You're the\n'howdy'\nto my\n'folks'",
-		"You're the\n'u up?' text\nto my\n2:43am.'",
+		"You're the\n'u up?' text\nto my\n2:43am.",
 		"You're the\n'om'\nto my\n'nom nom'.",
 		"You're the\naddictive quality\nto my\npointless website.",
 		"You're the\ngravy\nto my\nturkey dinner.",
