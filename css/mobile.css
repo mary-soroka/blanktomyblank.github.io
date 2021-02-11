@@ -47,17 +47,17 @@
 body,html {
 	padding:0;
 	margin:0;
-	font-size:12px;
 }
 
 .top-left {
 	font-size:4.5vw;
+	width:100%;
+	text-align:center;
+	left:0;
 }
 
 .top-right {
-	top:6vw;
-	right:6vw;
-	text-align:right;
+	display:none;
 }
 
 .content {
@@ -76,7 +76,7 @@ body,html {
 }
 
 button {
-	font-size:14px;
+	font-size:15px;
 	border:2px solid;
 }
 
