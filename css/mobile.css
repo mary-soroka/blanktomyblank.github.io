@@ -153,8 +153,8 @@ body,html {
 }
 
 .content textarea {
-	font-size:10vw;
-	height:40vw;
+	font-size:8vw;
+	height:32vw;
 }
 
 button {
@@ -162,7 +162,8 @@ button {
 	border:2px solid;
 	margin:5px;
 	display:inline;
-	padding:18px 15px;
+	padding:12px 20px;
+	border-radius:100px;
 }
 
 .canvas {
