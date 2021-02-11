@@ -49,6 +49,7 @@ body,html {
 	margin:0;
 }
 
+
 .top-left {
 	font-size:9vw;
 	width:100%;
@@ -60,6 +61,44 @@ body,html {
 .top-right {
 	display:none;
 }
+
+
+
+
+.fb-like {
+	padding:0;
+	position:absolute;
+	top:14px;
+	margin-right:1vw;
+}
+
+.social {
+	position:absolute;
+	top:23vw;
+	right:0;
+	z-index:999999999999;
+	width:100%;
+	text-align:center;
+}
+
+.twitter-share-button {
+	background-color:#1da1f2;
+	color:white;
+	padding:4px 8px 3px;
+	font-size:13px;
+	font-weight:500;
+	border-radius:2px;
+	margin:0;
+}
+
+.twitter-share-button:hover {
+	background-color:#0e7dc1;
+	color:white;
+}
+
+
+
+
 
 .mobile-credits {
 	font-weight:500;
