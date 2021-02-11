@@ -51,7 +51,13 @@ body,html {
 }
 
 .top-left {
-	font-size:5vw;
+	font-size:4.5vw;
+}
+
+.top-right {
+	top:6vw;
+	right:6vw;
+	text-align:right;
 }
 
 .content {

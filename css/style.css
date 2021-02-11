@@ -83,10 +83,11 @@ textarea:hover {
 }
 
 .top-right {
-	top:4vw;
-	right:4vw;
+	top:4.5vw;
+	right:4.5vw;
 	text-align:right;
 }
+
 .bottom-left {
 	bottom:4vw;
 	left:4vw;
@@ -162,7 +163,7 @@ button {
 	color:#f390b8;
 	font-family: 'Volte', sans-serif;
 	font-weight:600;
-	font-size:1.5vw;
+	font-size:2vw;
 	border:3px solid;
 	padding:6px 12px 4px;
 	outline::none;
