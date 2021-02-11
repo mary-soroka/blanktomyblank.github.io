@@ -93,6 +93,34 @@ textarea:hover {
 	display:none;
 }
 
+.fb-like {
+	padding:0;
+	position:absolute;
+	top:1.35vw;
+	margin-right:1vw;
+}
+
+.social {
+	position:absolute;
+	top:6vw;
+	right:2.5vw;
+	z-index:999999999999;
+}
+
+.twitter-share-button {
+	background-color:#1da1f2;
+	color:white;
+	padding:4px 8px 3px;
+	font-size:13px;
+	font-weight:500;
+	border-radius:2px;
+}
+
+.twitter-share-button:hover {
+	background-color:#0e7dc1;
+	color:white;
+}
+
 .content {
 	position:fixed;
 	margin:0;
@@ -190,6 +218,10 @@ button:hover {
 	color:#ffe0f4;
 	background-color:#f390b8;
 	border-color:#f390b8;
+}
+
+.twitter-share-button {
+	margin-right:2vw;
 }
 
 .canvas {
