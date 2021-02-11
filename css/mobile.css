@@ -166,6 +166,10 @@ button {
 	border-radius:100px;
 }
 
+#copy, #shop {
+	background-color:#ffe0f4;
+}
+
 .canvas {
 	position: fixed;
 	top: 0;
