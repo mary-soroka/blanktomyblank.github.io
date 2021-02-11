@@ -66,7 +66,7 @@
 		"You're the\nCOD\nto my\nXBOX.",
 		"You're the\nmeat\nto my\npotatoes.",
 		"You're the\nemo\nto my\nscreamo.",
-		"You're the\nOuija board\nto my\nseance.",
+		"You're the\nOuija board\nto my\ns&#233;ance.",
 		"You're the\ncheesy punchline\nto my\ndad joke.",
 		"You're the\nFettucini\nto my\nAlfredo.",
 		"You're the\n'f*ck it'\nto my\nNY resolution.",
