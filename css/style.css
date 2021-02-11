@@ -114,6 +114,7 @@ textarea:hover {
 	font-size:13px;
 	font-weight:500;
 	border-radius:2px;
+	margin:0;
 }
 
 .twitter-share-button:hover {
