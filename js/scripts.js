@@ -170,7 +170,7 @@
 		"You're the\nAOC\nto my\nUS congress.",
 		"You're the\nwind\nto my\nwings.",
 		"You're the\n'lol'\nto my\nawk text.",
-		"You're the\nNimbus 2000\nto my\nquidditch.",
+		"You're the\nNimbus 2000\nto my\nQuidditch.",
 		"You're the\ntime warp effect\nto my\nTikTok.",
 		"You're the\nnotification\nto my\nIG addiction.",
 		"You're the\nWOMMMMMM\nto my\nChris Nolan film.",
