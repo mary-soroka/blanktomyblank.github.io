@@ -70,7 +70,7 @@ textarea:hover {
 	cursor:default;
 }
 
-.top-left, .top-right, .bottom-left, .buttons {
+.top-left, .top-right, .buttons {
 	position:fixed;
 	z-index:999999999;
 }
@@ -86,17 +86,6 @@ textarea:hover {
 	top:4.5vw;
 	right:4.5vw;
 	text-align:right;
-}
-
-.bottom-left {
-	bottom:4vw;
-	left:4vw;
-}
-
-.buttons {
-	bottom:4vw;
-	text-align:center;
-	width:100%;
 }
 
 .content {
@@ -154,6 +143,12 @@ textarea:hover {
 
 input:focus, textarea:focus, select:focus {
 	outline: none;
+}
+
+.buttons {
+	bottom:5vw;
+	text-align:center;
+	width:100%;
 }
 
 button {
