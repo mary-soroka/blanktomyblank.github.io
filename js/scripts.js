@@ -238,6 +238,8 @@
 function randomYoure() {
   var randomYoure = youre[Math.floor(Math.random() * youre.length)];
   document.getElementById('randomYoure').value = randomYoure;
+  document.getElementById("go").childNodes[0].nodeValue=
+   "Anotha one!";
 }
 
 
@@ -245,6 +247,8 @@ function copy() {
   let randomYoure = document.getElementById("randomYoure");
   randomYoure.select();
   document.execCommand("copy");
+  document.getElementById('copied').style.display = "block";
+
 }
 
 /**
