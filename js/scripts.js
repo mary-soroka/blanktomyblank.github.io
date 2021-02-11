@@ -222,7 +222,6 @@
 		"You're the\nneedle\nto my\ncompass.",
 		"You're the\nwindow\nto my\nwall.",
 		"You're the\nmilk\nto my\ncookies.",
-		"You're the\nwindow nto my\npopcorn.",
 		"You're the\ngas\nto my\ncar.",
 		"You're the\nbubble\nto my\ntea.",
 		"You're the\nheadphones\nto my\ngym workout.",
