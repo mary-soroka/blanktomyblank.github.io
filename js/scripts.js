@@ -237,6 +237,7 @@
 function randomYoure() {
   var randomYoure = youre[Math.floor(Math.random() * youre.length)];
   document.getElementById('randomYoure').value = randomYoure;
+  document.getElementById("go").innerHTML="Anotha one!";
 }
 
 function copy() {
