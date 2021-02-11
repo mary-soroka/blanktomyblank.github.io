@@ -1,0 +1,143 @@
+@media (max-width: 600px) {
+
+.twitter-share-button {
+	position:absolute;
+	top:13px;
+	margin:0;
+}
+
+}
+
+
+@media (max-width: 640px) {
+
+@font-face {
+	font-family: 'Volte';
+	src: url('font/Volte-Light.woff2') format('woff2'),
+	url('font/Volte-Light.woff') format('woff');
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Volte';
+	src: url('font/Volte-Bold.woff2') format('woff2'),
+	url('font/Volte-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Volte';
+	src: url('font/Volte-Medium.woff2') format('woff2'),
+	url('font/Volte-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Volte';
+	src: url('font/Volte-Semibold.woff2') format('woff2'),
+	url('font/Volte-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Volte';
+	src: url('font/Volte.woff2') format('woff2'),
+	url('font/Volte.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body,html {
+	padding:0;
+	margin:0;
+}
+
+.top-left {
+	font-size:9vw;
+	width:100%;
+	text-align:center;
+	left:0;
+	letter-spacing:-1;
+}
+
+.top-right {
+	display:none;
+}
+
+.fb-like {
+	padding:0;
+	position:absolute;
+	top:14px;
+	margin-right:1vw;
+}
+
+.social {
+	top:23vw;
+	right:5vw;
+	z-index:999999999999;
+	width:100%;
+	text-align:center;
+}
+
+.twitter-share-button {
+	background-color:#1da1f2;
+	color:white;
+	padding:4px 8px 3px;
+	font-size:13px;
+	font-weight:500;
+	border-radius:2px;
+	margin:0;
+}
+
+.twitter-share-button:hover {
+	background-color:#0e7dc1;
+	color:white;
+}
+
+.mobile-credits {
+	font-weight:500;
+	display:initial;
+	font-size:4vw;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:18vw;
+	z-index:99999999999;
+}
+
+.content textarea {
+	font-size:8vw;
+	height:32vw;
+}
+
+button {
+	font-size:5vw;
+	border:2px solid;
+	margin:5px;
+	display:inline;
+	padding:12px 20px 10px;
+	border-radius:100px;
+}
+
+#copy, #shop {
+	background-color:#ffe0f4;
+}
+
+.canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	z-index: -1;
+}
+
+}

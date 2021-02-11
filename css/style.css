@@ -70,7 +70,7 @@ textarea:hover {
 	cursor:default;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right {
+.top-left, .top-right, .buttons {
 	position:fixed;
 	z-index:999999999;
 }
@@ -83,25 +83,43 @@ textarea:hover {
 }
 
 .top-right {
-	top:4vw;
-	right:4vw;
+	top:4.5vw;
+	right:4.5vw;
 	text-align:right;
+	display:initial;
 }
 
-.top-right  a {
-	margin-left:2vw;
-	padding:2px;
+.mobile-credits {
+	display:none;
 }
 
-.bottom-left {
-	bottom:4vw;
-	left:4vw;
+.fb-like {
+	padding:0;
+	position:absolute;
+	top:14px;
+	margin-right:1vw;
 }
 
-.bottom-right {
-	bottom:4vw;
-	right:4vw;
-	text-align:right;
+.social {
+	position:absolute;
+	top:7vw;
+	right:2.5vw;
+	z-index:999999999999;
+}
+
+.twitter-share-button {
+	background-color:#1da1f2;
+	color:white;
+	padding:4px 8px 3px;
+	font-size:13px;
+	font-weight:500;
+	border-radius:2px;
+	margin:0;
+}
+
+.twitter-share-button:hover {
+	background-color:#0e7dc1;
+	color:white;
 }
 
 .content {
@@ -161,6 +179,12 @@ input:focus, textarea:focus, select:focus {
 	outline: none;
 }
 
+.buttons {
+	bottom:5vw;
+	text-align:center;
+	width:100%;
+}
+
 button {
 	background:transparent;
 	border:0;
@@ -168,7 +192,7 @@ button {
 	color:#f390b8;
 	font-family: 'Volte', sans-serif;
 	font-weight:600;
-	font-size:1.5vw;
+	font-size:2vw;
 	border:3px solid;
 	padding:6px 12px 4px;
 	outline::none;
@@ -195,6 +219,10 @@ button:hover {
 	color:#ffe0f4;
 	background-color:#f390b8;
 	border-color:#f390b8;
+}
+
+.twitter-share-button {
+	margin-right:2vw;
 }
 
 .canvas {

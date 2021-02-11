@@ -26,7 +26,7 @@
 		"You're the\nNetflix\nto my\nchill.",
 		"You're the\nwhite girl\nto my\nwasted.",
 		"You're the\nreproductive rights\nto my\nuterus.",
-		"You're the\nmute button\nto my\nzoom call.",
+		"You're the\nmute button\nto my\nZoom call.",
 		"You're the\nRobaxx\nto my\nback pain.",
 		"You're the\n'skip'\nto my\nsponsored ad.",
 		"You're the\nYOLO\nto my\nFOMO.",
@@ -66,14 +66,14 @@
 		"You're the\nCOD\nto my\nXBOX.",
 		"You're the\nmeat\nto my\npotatoes.",
 		"You're the\nemo\nto my\nscreamo.",
-		"You're the\nOuija board\nto my\nseance.",
+		"You're the\nOuija board\nto my\ns&#233;ance.",
 		"You're the\ncheesy punchline\nto my\ndad joke.",
 		"You're the\nFettucini\nto my\nAlfredo.",
 		"You're the\n'f*ck it'\nto my\nNY resolution.",
 		"You're the\nMariah Carey\nto my\ndolphin whistle.",
 		"You're the\nsports car\nto my\nmid-life crisis.",
 		"You're the\n'howdy'\nto my\n'folks'",
-		"You're the\n'u up?' text\nto my\n2:43am.'",
+		"You're the\n'u up?' text\nto my\n2:43am.",
 		"You're the\n'om'\nto my\n'nom nom'.",
 		"You're the\naddictive quality\nto my\npointless website.",
 		"You're the\ngravy\nto my\nturkey dinner.",
@@ -108,14 +108,14 @@
 		"You're the\nM&Ms\nto my\nmovie popcorn.",
 		"You're the\nlegitimate result\nto my\n2020 election.",
 		"You're the\n'1-800'\nto my\n'did-I-ask?'",
-		"You're the\nvulnerability\nto my\nhealthy relash.",
+		"You're the\nvulnerability\nto my\nhealthy relationship.",
 		"You're the\nYin\nto my\nYang.",
 		"You're the\ninfinity stone\nto my\ninfinity gauntlet.",
 		"You're the\nTony Stark\nto my\nPeter Parker.",
 		"You're the\nMiles Morales\nto my\nSpiderverse.",
 		"You're the\nroo\nto my\ndoo-doo-doo-doo.",
 		"You're the\ndoodle\nto my\nmeeting.",
-		"You're the\nDwight Shrute\nto my\nDunder Mifflin.",
+		"You're the\nDwight Schrute\nto my\nDunder Mifflin.",
 		"You're the\nCreed Bratton\nto my\nconference meeting.",
 		"You're the\nace\nto my\ndeck of cards.",
 		"You're the\nwater\nto my\nhouse plant.",
@@ -123,11 +123,7 @@
 		"You're the\nmmm\nto my\nbop.",
 		"You're the\nBoardwalk\nto my\nMonopoly.",
 		"You're the\nred butt\nto my\nrecess.",
-<<<<<<< HEAD
-		"You're the\nmonochromatic\nto my\ncult uniform.",
-=======
 		"You're the\nmonochrome\nto my\ncult uniform.",
->>>>>>> c85504c3765da8355f3fb52be8dac4486b7b5394
 		"You're the\nnightmare\nto my\nmurder podcast.",
 		"You're the\nScooby\nto my\nDoo.",
 		"You're the\ntop\nto my\nmuffin.",
@@ -174,7 +170,7 @@
 		"You're the\nAOC\nto my\nUS congress.",
 		"You're the\nwind\nto my\nwings.",
 		"You're the\n'lol'\nto my\nawk text.",
-		"You're the\nNimbus 2000\nto my\nquidditch.",
+		"You're the\nNimbus 2000\nto my\nQuidditch.",
 		"You're the\ntime warp effect\nto my\nTikTok.",
 		"You're the\nnotification\nto my\nIG addiction.",
 		"You're the\nWOMMMMMM\nto my\nChris Nolan film.",
@@ -226,7 +222,6 @@
 		"You're the\nneedle\nto my\ncompass.",
 		"You're the\nwindow\nto my\nwall.",
 		"You're the\nmilk\nto my\ncookies.",
-		"You're the\nwindow nto my\npopcorn.",
 		"You're the\ngas\nto my\ncar.",
 		"You're the\nbubble\nto my\ntea.",
 		"You're the\nheadphones\nto my\ngym workout.",
@@ -246,13 +241,14 @@
 function randomYoure() {
   var randomYoure = youre[Math.floor(Math.random() * youre.length)];
   document.getElementById('randomYoure').value = randomYoure;
+  document.getElementById("go").innerHTML="Anotha one!";
 }
-
 
 function copy() {
   let randomYoure = document.getElementById("randomYoure");
   randomYoure.select();
   document.execCommand("copy");
+   document.getElementById('copied').style.display = "block";
 }
 
 /**
