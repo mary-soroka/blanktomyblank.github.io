@@ -152,7 +152,7 @@ body,html {
 }
 
 button {
-	font-size:8vw;
+	font-size:7vw;
 	border:2px solid;
 	margin:5px;
 }
@@ -161,8 +161,8 @@ button {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 80%;
-	height: 80%;
+	width: 50%;
+	height: 50%;
 	z-index: -1;
 }
 
