@@ -115,7 +115,7 @@
 		"You're the\nMiles Morales\nto my\nSpiderverse.",
 		"You're the\nroo\nto my\ndoo-doo-doo-doo.",
 		"You're the\ndoodle\nto my\nmeeting.",
-		"You're the\nDwight Shrute\nto my\nDunder Mifflin.",
+		"You're the\nDwight Schrute\nto my\nDunder Mifflin.",
 		"You're the\nCreed Bratton\nto my\nconference meeting.",
 		"You're the\nace\nto my\ndeck of cards.",
 		"You're the\nwater\nto my\nhouse plant.",
