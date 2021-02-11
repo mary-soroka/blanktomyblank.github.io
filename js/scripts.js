@@ -240,11 +240,11 @@ function randomYoure() {
   document.getElementById('randomYoure').value = randomYoure;
 }
 
-
 function copy() {
   let randomYoure = document.getElementById("randomYoure");
   randomYoure.select();
   document.execCommand("copy");
+   document.getElementById('copied').style.display = "block";
 }
 
 /**
