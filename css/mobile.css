@@ -144,17 +144,22 @@ body,html {
 	font-weight:500;
 	display:initial;
 	font-size:4vw;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:15vw;
 }
 
 .content textarea {
-	font-size:13vw;
-	height:50vw;
+	font-size:10vw;
+	height:40vw;
 }
 
 button {
-	font-size:7vw;
+	font-size:5vw;
 	border:2px solid;
 	margin:5px;
+	display:inline;
 }
 
 .canvas {
