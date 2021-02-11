@@ -70,7 +70,7 @@ textarea:hover {
 	cursor:default;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right {
+.top-left, .top-right, .bottom-left, .buttons {
 	position:fixed;
 	z-index:999999999;
 }
@@ -87,21 +87,15 @@ textarea:hover {
 	right:4vw;
 	text-align:right;
 }
-
-.top-right  a {
-	margin-left:2vw;
-	padding:2px;
-}
-
 .bottom-left {
 	bottom:4vw;
 	left:4vw;
 }
 
-.bottom-right {
+.buttons {
 	bottom:4vw;
-	right:4vw;
-	text-align:right;
+	text-align:center;
+	width:100%;
 }
 
 .content {
