@@ -237,6 +237,10 @@
 		"You're the\ndouble\nto my\nrainbow.",
 		"You're the\navocado\nto my\nhealth kick.",
 		"You're the\nhee hee\nto my\nMJ.",
+		"You're the\nrise\nto my\nsourdough bread.",
+		"You're the\npep\nto my\nstep.",
+		"You're the\nreal\nto my\ndeal.",
+		"You're the\nstartup\nto my\nSilicon Valley.",
 		);
 
 function randomYoure() {
