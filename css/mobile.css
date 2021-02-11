@@ -1,8 +1,11 @@
 @media (max-width: 600px) {
 
-	.fb-like {
-	top:-5px;
+.twitter-share-button {
+	position:absolute;
+	top:13px;
+	margin:0;
 }
+
 }
 
 
