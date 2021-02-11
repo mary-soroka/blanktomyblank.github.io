@@ -123,7 +123,11 @@
 		"You're the\nmmm\nto my\nbop.",
 		"You're the\nBoardwalk\nto my\nMonopoly.",
 		"You're the\nred butt\nto my\nrecess.",
+<<<<<<< HEAD
+		"You're the\nmonochromatic\nto my\ncult uniform.",
+=======
 		"You're the\nmonochrome\nto my\ncult uniform.",
+>>>>>>> c85504c3765da8355f3fb52be8dac4486b7b5394
 		"You're the\nnightmare\nto my\nmurder podcast.",
 		"You're the\nScooby\nto my\nDoo.",
 		"You're the\ntop\nto my\nmuffin.",
@@ -232,29 +236,20 @@
 		"You're the\npower-on sound\nto my\nPS5.",
 		"You're the\ndouble\nto my\nrainbow.",
 		"You're the\navocado\nto my\nhealth kick.",
-		"You're the\n'hee hee'\nto my\nMJ.",
+		"You're the\nhee hee\nto my\nMJ.",
 		);
 
 function randomYoure() {
   var randomYoure = youre[Math.floor(Math.random() * youre.length)];
   document.getElementById('randomYoure').value = randomYoure;
-  document.getElementById("go").childNodes[0].nodeValue=
-   "Anotha one!";
 }
+
 
 function copy() {
   let randomYoure = document.getElementById("randomYoure");
   randomYoure.select();
   document.execCommand("copy");
 }
-
-function copied() {
-  document.getElementById('copied').style.display = "block";
-}
-
-
-
-
 
 /**
  * * *******************
