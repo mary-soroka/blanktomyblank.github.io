@@ -130,7 +130,7 @@ body,html {
 }
 
 .top-left {
-	font-size:7vw;
+	font-size:9vw;
 	width:100%;
 	text-align:center;
 	left:0;
@@ -148,7 +148,8 @@ body,html {
 	position:absolute;
 	width:100%;
 	text-align:center;
-	top:15vw;
+	top:18vw;
+	z-index:99999999999;
 }
 
 .content textarea {
@@ -161,6 +162,7 @@ button {
 	border:2px solid;
 	margin:5px;
 	display:inline;
+	padding:18px 15px;
 }
 
 .canvas {
