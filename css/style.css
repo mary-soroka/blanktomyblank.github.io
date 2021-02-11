@@ -86,6 +86,11 @@ textarea:hover {
 	top:4.5vw;
 	right:4.5vw;
 	text-align:right;
+	display:initial;
+}
+
+.mobile-credits {
+	display:none;
 }
 
 .content {
