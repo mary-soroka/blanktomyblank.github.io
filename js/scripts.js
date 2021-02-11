@@ -108,7 +108,7 @@
 		"You're the\nM&Ms\nto my\nmovie popcorn.",
 		"You're the\nlegitimate result\nto my\n2020 election.",
 		"You're the\n'1-800'\nto my\n'did-I-ask?'",
-		"You're the\nvulnerability\nto my\nhealthy relash.",
+		"You're the\nvulnerability\nto my\nhealthy relationship.",
 		"You're the\nYin\nto my\nYang.",
 		"You're the\ninfinity stone\nto my\ninfinity gauntlet.",
 		"You're the\nTony Stark\nto my\nPeter Parker.",
