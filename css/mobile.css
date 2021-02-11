@@ -130,10 +130,11 @@ body,html {
 }
 
 .top-left {
-	font-size:9vw;
+	font-size:7vw;
 	width:100%;
 	text-align:center;
 	left:0;
+	letter-spacing:-1;
 }
 
 .top-right {
